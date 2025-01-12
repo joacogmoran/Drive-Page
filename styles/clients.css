@@ -1,0 +1,79 @@
+@media (max-width: 767px) {
+    #clients { padding: 30px; }
+    #clients__container { gap: 30px; text-align: center; }
+
+    #clients__container__cards { flex-direction: column; align-items: center; gap: 30px; }
+    .clients__container__cards__card { gap: 20px; padding-left: 15px; }
+    .clients__container__cards__card > h3 { font-size: 27px; }
+    .clients__container__cards__card > span { font-size: 17px; line-height: 30px; }
+    .clients__container__cards__card > p { font-size: 15px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #clients { padding: 50px; }
+    #clients__container { gap: 30px; }
+
+    #clients__container__cards { gap: 30px; }
+    .clients__container__cards__card { gap: 20px; padding-left: 15px; text-align: center; }
+    .clients__container__cards__card > h3 { font-size: 27px; }
+    .clients__container__cards__card > span { font-size: 17px; line-height: 30px; }
+    .clients__container__cards__card > p { font-size: 15px; }
+}
+
+@media (min-width: 992px) and (max-width: 1999px) {
+    #clients { padding: 50px 100px; }
+    #clients__container { gap: 30px; }
+
+    #clients__container__cards { gap: 30px; }
+    .clients__container__cards__card { gap: 20px; padding-left: 15px; }
+
+    #clients__container > h3 { font-size: 27px; }
+    .clients__container__cards__card > span { font-size: 17px; line-height: 30px; }
+    .clients__container__cards__card > p { font-size: 15px; }
+}
+
+@media (min-width: 1200px) and (max-width: 1399) {
+    #clients { padding: 100px; }
+    #clients__container { gap: 30px; }
+
+    #clients__container__cards { gap: 30px; }
+    .clients__container__cards__card { gap: 20px; padding-left: 15px; }
+
+    #clients__container > h3 { font-size: 27px; }
+    .clients__container__cards__card > span { font-size: 17px; line-height: 30px; }
+    .clients__container__cards__card > p { font-size: 15px; }
+}
+
+@media (min-width: 1400px) {
+    #clients { padding: 70px 150px; }
+    #clients__container { gap: 30px; }
+
+    #clients__container__cards { gap: 30px; }
+    .clients__container__cards__card { gap: 20px; padding-left: 15px; }
+
+    #clients__container > h3 { font-size: 27px; }
+    .clients__container__cards__card > span { font-size: 17px; line-height: 30px; }
+    .clients__container__cards__card > p { font-size: 17px; }
+}
+
+
+
+#clients__container {
+    display: flex;
+    flex-direction: column;
+}
+
+#clients__container__cards {
+    display: flex;
+}
+
+.clients__container__cards__card {
+    border-left: 2px solid black;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.clients__container__cards__card > span { font-weight: normal; }

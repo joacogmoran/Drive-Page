@@ -1,0 +1,92 @@
+@media (max-width: 767px) {
+    #sug { padding: 30px; }
+    #sug__container { gap: 30px; text-align: center; }
+
+    #sug__container__cards { flex-direction: column; align-items: center; gap: 30px; }
+    .sug__container__cards__card { gap: 10px; padding: 20px; }
+    .sug__container__cards__card > button { margin-top: 5px; padding: 10px 15px; }
+
+    #sug__container > h2 { font-size: 27px; }
+    .sug__container__cards__card > span { font-size: 17px; }
+    .sug__container__cards__card > p { font-size: 17px; line-height: 30px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #sug { padding: 50px; }
+    #sug__container { gap: 30px; }
+
+    #sug__container__cards { gap: 30px; }
+    .sug__container__cards__card { gap: 10px; padding: 20px; text-align: center; }
+    .sug__container__cards__card > button { margin-top: 5px; padding: 10px 15px; }
+
+    #sug__container > h2 { font-size: 27px; }
+    .sug__container__cards__card > span { font-size: 17px; }
+    .sug__container__cards__card > p { font-size: 17px; line-height: 30px; }
+}
+
+@media (min-width: 992px) and (max-width: 1999px) {
+    #sug { padding: 50px 100px; }
+    #sug__container { gap: 30px; }
+
+    #sug__container__cards { gap: 30px; }
+    .sug__container__cards__card { gap: 10px; padding: 20px; }
+    .sug__container__cards__card > button { align-self: start; margin-top: 5px; padding: 10px 15px; }
+
+    #sug__container > h2 { font-size: 27px; }
+    .sug__container__cards__card > span { font-size: 17px; }
+    .sug__container__cards__card > p { font-size: 17px; line-height: 30px; }
+}
+
+@media (min-width: 1200px) and (max-width: 1399) {
+    #sug { padding: 100px; }
+    #sug__container { gap: 30px; }
+
+    #sug__container__cards { gap: 30px; }
+    .sug__container__cards__card { gap: 10px; padding: 20px; }
+    .sug__container__cards__card > button { align-self: start; margin-top: 5px; padding: 10px 15px; }
+
+    #sug__container > h2 { font-size: 27px; }
+    .sug__container__cards__card > span { font-size: 17px; }
+    .sug__container__cards__card > p { font-size: 17px; line-height: 30px; }
+}
+
+@media (min-width: 1400px) {
+    #sug { padding: 70px 150px; }
+    #sug__container { gap: 30px; }
+
+    #sug__container__cards { gap: 30px; }
+    .sug__container__cards__card { gap: 10px; padding: 20px; }
+    .sug__container__cards__card > button { align-self: start; margin-top: 5px; padding: 10px 15px; }
+
+    #sug__container > h2 { font-size: 27px; }
+    .sug__container__cards__card > span { font-size: 17px; }
+    .sug__container__cards__card > p { font-size: 17px; line-height: 30px; }
+}
+
+#sug__container {
+    display: flex;
+    flex-direction: column;
+}
+
+#sug__container__cards {
+    display: flex;
+}
+
+.sug__container__cards__card {
+    background-color: whitesmoke;
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.501);
+    border-radius: 5px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sug__container__cards__card > span { font-weight: bold; }
+
+.sug__container__cards__card > button {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}

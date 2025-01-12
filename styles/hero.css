@@ -1,0 +1,145 @@
+@media (max-width: 767px) {
+    #hero { padding: 30px; }
+    #hero__container { gap: 80px; }
+    #hero__container > :first-child { width: 100%; }
+
+    #hero__container__content { gap: 30px; align-items: center; text-align: center; }
+    #hero__container__content > form { gap: 30px; align-items: center; }
+    .hero__container__content__form__input { padding: 15px; }
+    #hero__container__content__form__block { flex-direction: column; gap: 30px; width: 100%; }
+    #hero__container__content__form__block > input { width: 100%; }
+    #hero__container__content > form > button { max-width: 150px; padding-block: 15px; }
+
+    #hero__container__map { display: none; }
+
+    #hero__container__content > h1 { font-size: 43px; }
+    #hero__container__content > p { font-size: 20px; line-height: 30px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #hero { padding: 50px; }
+    #hero__container { gap: 50px; }
+    #hero__container > :first-child { width: 50%; }
+    #hero__container > :last-child { width: 50%; }
+
+    #hero__container__content { gap: 30px; }
+    #hero__container__content > form { gap: 30px; }
+    .hero__container__content__form__input { padding: 15px; }
+    #hero__container__content__form__block { gap: 20px; }
+    #hero__container__content__form__block > input { width: 50%; }
+    #hero__container__content > form > button { max-width: 150px; padding-block: 15px; }
+    
+    .hero__container__block { width: 50%; }
+
+    #hero__container__map > iframe { height: 100%; width: 100%; }
+
+    #hero__container__content > h1 { font-size: 43px; }
+    #hero__container__content > p { font-size: 20px; line-height: 30px; }
+}
+
+@media (min-width: 992px) and (max-width: 1999px) {
+    #hero { padding: 50px 100px; }
+    #hero__container { gap: 80px; }
+    #hero__container > :first-child { width: 35%; }
+    #hero__container > :last-child { width: 75%; }
+
+    #hero__container__content { gap: 30px; }
+    #hero__container__content > form { gap: 30px; }
+    .hero__container__content__form__input { padding: 15px; }
+    #hero__container__content__form__block { gap: 20px; }
+    #hero__container__content__form__block > input { width: 50%; }
+    #hero__container__content > form > button { max-width: 150px; padding-block: 15px; }
+    
+    .hero__container__block { width: 50%; }
+
+    #hero__container__map > iframe { height: 100%; width: 100%; }
+
+    #hero__container__content > h1 { font-size: 43px; }
+    #hero__container__content > p { font-size: 20px; line-height: 30px; }
+}
+
+@media (min-width: 1200px) and (max-width: 1399) {
+    #hero { padding: 100px; }
+    #hero__container { gap: 80px; }
+    #hero__container > :first-child { width: 35%; }
+    #hero__container > :last-child { width: 75%; }
+
+    #hero__container__content { gap: 30px; }
+    #hero__container__content > form { gap: 30px; }
+    .hero__container__content__form__input { padding: 15px; }
+    #hero__container__content__form__block { gap: 20px; }
+    #hero__container__content__form__block > input { width: 50%; }
+    #hero__container__content > form > button { max-width: 150px; padding-block: 15px; }
+    
+    .hero__container__block { width: 50%; }
+
+    #hero__container__map > iframe { height: 100%; width: 100%; }
+
+    #hero__container__content > h1 { font-size: 43px; }
+    #hero__container__content > p { font-size: 20px; line-height: 30px; }
+}
+
+@media (min-width: 1400px) {
+    #hero { padding: 70px 150px; }
+    #hero__container { gap: 80px; }
+    #hero__container > :first-child { width: 35%; }
+    #hero__container > :last-child { width: 75%; }
+
+    #hero__container__content { gap: 30px; }
+    #hero__container__content > form { gap: 30px; }
+    .hero__container__content__form__input { padding: 15px; }
+    #hero__container__content__form__block { gap: 20px; }
+    #hero__container__content__form__block > input { width: 50%; }
+    #hero__container__content > form > button { max-width: 150px; padding-block: 15px; }
+    
+    .hero__container__block { width: 50%; }
+
+    #hero__container__map > iframe { height: 100%; width: 100%; }
+
+    #hero__container__content > h1 { font-size: 43px; }
+    #hero__container__content > p { font-size: 20px; line-height: 30px; }
+}
+
+
+#hero { width: 100%; }
+#hero__container {
+    display: flex;
+    height: 100%;
+}
+
+#hero__container__content {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero__container__content > form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hero__container__content__form__input {
+    background-color: whitesmoke;
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.501);
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+#hero__container__content__form__block {
+    display: flex;
+}
+
+
+#hero__container__content > form > button {
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    color: white;
+}
+
+#hero__container__map > iframe {
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.501);
+    border-radius: 5px;
+    border: none;
+}

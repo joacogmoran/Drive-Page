@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box; margin: 0; padding: 0;
+    list-style: none; text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 100 – 900;
+    font-style: normal;
+}

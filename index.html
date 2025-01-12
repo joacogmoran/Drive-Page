@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/sug.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/clients.css">
+    <link rel="stylesheet" href="./styles/info.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>Drive</title>
+</head>
+<body>
+    
+    <header>
+        <div id="header__container">
+            <a href="#">Drive</a>
+            <div id="header__container__menu">
+                <label id="header__container__menu__text" for="header__container__menu__input">Menu</label>
+                <input id="header__container__menu__input" type="checkbox">
+                <ul id="header__container__list">
+                    <li><a href="#sug">Sugerencias</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#clients">clients</a></li>
+                    <li><a href="#info">Info</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="hero">
+            
+            <div id="hero__container">
+
+                <div id="hero__container__content" class="hero__container__block">
+                    <h1>Viaja a cualquier lugar con la app de Drive</h1>
+                    <p>
+                        Conecta con viajes seguros, rápidos y accesibles,
+                        o conviértete en un conductor y gana mientras manejas.
+                    </p>
+                    <form>
+                        <input class="hero__container__content__form__input" type="text" placeholder="Punto de partida">
+                        <input class="hero__container__content__form__input" type="text" placeholder="Destino">
+                        <div id="hero__container__content__form__block">
+                            <input class="hero__container__content__form__input" type="date">
+                            <input class="hero__container__content__form__input" type="datetime" placeholder="Hora">
+                        </div>
+                        <button>Ver Precios</button>
+                    </form>
+                </div>
+
+                <div id="hero__container__map" class="hero__container__block">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345095353!2d144.9537353156783!3d-37.81627974202144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf57730c7f9f1ab43!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1614742851877!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SUG -->
+        <section id="sug">
+            <div id="sug__container">
+                <h2>Sugerencias</h2>
+                <div id="sug__container__cards">
+                    <div class="sug__container__cards__card">
+                        <span>Viaje</span>
+                        <p>
+                            Viaje a cualquier lugar con la app de Drive.
+                            Pida un viaje, subase y relajese.
+                        </p>
+                        <button>Detalles</button>
+                    </div>
+
+                    <div class="sug__container__cards__card">
+                        <span>Flash</span>
+                        <p>
+                            Drive hace que la entrega de articulos el mismo
+                            dia sea mas facil que nunca.
+                        </p>
+                        <button>Detalles</button>
+                    </div>
+
+                    <div class="sug__container__cards__card">
+                        <span>Reserve</span>
+                        <p>
+                            Reserve su viaje con anticipacion para que
+                            pueda relajarse ese dia.
+                        </p>
+                        <button>Detalles</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <div id="about__container">
+
+                <div class="about__container__block">
+                    <div id="about__container__block__i1" class="about__container__block__image"></div>
+                    <div class="about__container__block__glass">
+                        <p>Nosotros</p>
+                        <a>Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="about__container__block">
+                    <div id="about__container__block__i2" class="about__container__block__image"></div>
+                    <div class="about__container__block__glass">
+                        <p>Sustentabilidad</p>
+                        <a>Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="about__container__block">
+                    <div id="about__container__block__i3" class="about__container__block__image"></div>
+                    <div class="about__container__block__glass">
+                        <p>Responsabilidad social</p>
+                        <a>Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="about__container__block">
+                    <div id="about__container__block__i4" class="about__container__block__image"></div>
+                    <div class="about__container__block__glass">
+                        <p>Historia</p>
+                        <a>Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="about__container__block">
+                    <div id="about__container__block__i5" class="about__container__block__image"></div>
+                    <div class="about__container__block__glass">
+                        <p>Carreras</p>
+                        <a>Ver mas</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CLIENTS -->
+        <section id="clients">
+            <div id="clients__container">
+                <h3>Lo que dicen nuestros clientes</h3>
+                <div id="clients__container__cards">
+                    <div class="clients__container__cards__card">
+                        <span>
+                            Me encanta la comodidad y la rapidez con la que consigo un viaje,
+                            siempre llego a tiempo.
+                        </span>
+                        <p>Ana, usuaria habitual.</p>
+                    </div>
+
+                    <div class="clients__container__cards__card">
+                        <span>
+                            Siempre puedo confiar en esta plataforma para llegar a tiempo,
+                            incluso en horarios complicados.
+                        </span>
+                        <p>Laura, estudiante universitaria.</p>
+                    </div>
+
+                    <div class="clients__container__cards__card">
+                        <span>
+                            La plataforma me ha cambiado la vida. Es rápido, seguro y
+                            siempre encuentro un conductor cerca cuando más lo necesito.
+                        </span>
+                        <p>Mariana, emprendedora.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- INFO -->
+        <section id="info">
+            <div id="info__container">
+                <div class="info__container__row">
+                    <div class="info__container__row__content">
+                        <h4>Inicia sesión para ver tu actividad reciente</h4>
+                        <p>
+                            Consulta viajes anteriores, sugerencias personalizadas,
+                            recursos de soporte y más.
+                        </p>
+                        <button>Iniciar sesion</button>
+                    </div>
+                    <div class="info__container__row__image">
+                        <img src="./assets/Airport-Fall.png" alt="">
+                    </div>
+                </div>
+
+                <div class="info__container__row">
+                    <div class="info__container__row__content">
+                        <h4>Conduce cuando quieras y genera las ganancias que necesites</h4>
+                        <p>
+                            Genera ganancias en tu propio tiempo con entregas, viajes
+                            o ambos. Puedes usar tu propio auto u optar por un
+                            vehículo de renta a través de la app de Drive.
+                        </p>
+                        <button>Comenzar</button>
+                    </div>
+                    <div class="info__container__row__image">
+                        <img src="./assets/earner-illustra.png" alt="">
+                    </div>
+                </div>
+
+                <div class="info__container__row">
+                    <div class="info__container__row__content">
+                        <h4>Drive reinventada para los negocios</h4>
+                        <p>
+                            Drive para Empresas es una plataforma con la que las empresas
+                            de todos los tamaños pueden gestionar viajes y comidas
+                            globales, así como entregas locales.
+                        </p>
+                        <button>Comenzar</button>
+                    </div>
+                    <div class="info__container__row__image">
+                        <img src="./assets/u4b-square.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="footer__container">
+            <p>@driveapp</p>
+            <p>drice@gmail.com</p>
+            <p>11 1234 1234</p>
+        </div>
+    </footer>
+
+</body>
+</html>
