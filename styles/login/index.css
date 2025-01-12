@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box; margin: 0; padding: 0;
+    list-style: none; text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 100 – 900;
+    font-style: normal;
+}
+
+@media (max-width: 767px) {
+    #content { width: 100%; padding: 30px; }
+    #image { display: none;}
+
+    #content__container { gap: 30px; text-align: center; }
+    #content__container > form { gap: 30px; text-align: center; }
+    .content__container__form__inputs { gap: 10px; }
+    .content__container__form__inputs > input { padding: 15px; }
+    #content__container > form > button { align-self: center; margin-top: 10px; padding: 15px; }
+
+    #content__container > h1 { font-size: 30px; }
+    #content__container > p { font-size: 20px; line-height: 32px; }
+    .content__container__form__inputs > label { font-size: 17px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #content { width: 50%; padding: 30px; }
+    #image { width: 50%; }
+
+    #content__container { gap: 30px; }
+    #content__container > form { gap: 30px; }
+    .content__container__form__inputs { gap: 10px; }
+    .content__container__form__inputs > input { padding: 15px; }
+    #content__container > form > button { align-self: flex-start; margin-top: 10px; padding: 15px; }
+
+    #content__container > h1 { font-size: 30px; }
+    #content__container > p { font-size: 20px; line-height: 32px; }
+    .content__container__form__inputs > label { font-size: 17px; }
+}
+
+@media (min-width: 992px) and (max-width: 1999px) {
+    #content { width: 45%; padding: 100px; }
+    #image { width: 55%; }
+
+    #content__container { gap: 30px; }
+    #content__container > form { gap: 30px; }
+    .content__container__form__inputs { gap: 10px; }
+    .content__container__form__inputs > input { padding: 15px; }
+    #content__container > form > button { align-self: flex-start; margin-top: 10px; padding: 15px; }
+
+    #content__container > h1 { font-size: 30px; }
+    #content__container > p { font-size: 20px; line-height: 32px; }
+    .content__container__form__inputs > label { font-size: 17px; }
+}
+
+@media (min-width: 1200px) and (max-width: 1399) {
+    #content { width: 45%; padding: 100px; }
+    #image { width: 55%; }
+
+    #content__container { gap: 30px; }
+    #content__container > form { gap: 30px; }
+    .content__container__form__inputs { gap: 10px; }
+    .content__container__form__inputs > input { padding: 15px; }
+    #content__container > form > button { align-self: flex-start; margin-top: 10px; padding: 15px; }
+
+    #content__container > h1 { font-size: 30px; }
+    #content__container > p { font-size: 20px; line-height: 32px; }
+    .content__container__form__inputs > label { font-size: 17px; }
+}
+
+@media (min-width: 1400px) {
+    #content { width: 45%; padding: 100px; }
+    #image { width: 55%; }
+
+    #content__container { gap: 30px; }
+    #content__container > form { gap: 30px; }
+    .content__container__form__inputs { gap: 10px; }
+    .content__container__form__inputs > input { padding: 15px; }
+    #content__container > form > button { align-self: flex-start; margin-top: 10px; padding: 15px; }
+
+    #content__container > h1 { font-size: 30px; }
+    #content__container > p { font-size: 20px; line-height: 32px; }
+    .content__container__form__inputs > label { font-size: 17px; }
+}
+
+main {
+    display: flex;
+    height: 100vh; width: 100%;
+}
+
+#content {
+    background-color: whitesmoke;
+    place-content: center;
+    align-items: center;
+}
+
+#content__container {
+    display: flex;
+    flex-direction: column;
+}
+
+#content__container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__container__form__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__container__form__inputs > label {
+    font-weight: bold;
+}
+
+.content__container__form__inputs > input {
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.501);
+    border-radius: 5px;
+    border: none;
+}
+
+#content__container > form > button {
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.501);
+    border-radius: 5px;
+    border: none;
+}
+
+#image {
+    background-color: lightcoral;
+}
+
+#image__container {
+    background-image: url(../../assets/chris-liverani-HUJDz6CJEaM-unsplash.jpg);
+    background-position: center; background-size: cover;
+    height: 100%; width: 100%;
+}

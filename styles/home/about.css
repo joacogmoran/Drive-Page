@@ -78,11 +78,11 @@
 }
 
 .about__container__block__image:hover { background-size: 110%; }
-#about__container__block__i1 { background-image: url(../assets/ian-schneider-TamMbr4okv4-unsplash.jpg); }
-#about__container__block__i2 { background-image: url(../assets/casey-horner-4rDCa5hBlCs-unsplash.jpg); }
-#about__container__block__i3 { background-image: url(../assets/daria-pimkina-tYaccl19A3Q-unsplash.jpg); }
-#about__container__block__i4 { background-image: url(../assets/yuan-thirdy-5ZVr-f5Z47Q-unsplash.jpg); }
-#about__container__block__i5 { background-image: url(../assets/andrew-neel-QLqNalPe0RA-unsplash.jpg); }
+#about__container__block__i1 { background-image: url(../../assets/ian-schneider-TamMbr4okv4-unsplash.jpg); }
+#about__container__block__i2 { background-image: url(../../assets/casey-horner-4rDCa5hBlCs-unsplash.jpg); }
+#about__container__block__i3 { background-image: url(../../assets/daria-pimkina-tYaccl19A3Q-unsplash.jpg); }
+#about__container__block__i4 { background-image: url(../../assets/yuan-thirdy-5ZVr-f5Z47Q-unsplash.jpg); }
+#about__container__block__i5 { background-image: url(../../assets/andrew-neel-QLqNalPe0RA-unsplash.jpg); }
 
 .about__container__block__glass {
     background-color: rgba(0, 0, 0, 0.712);

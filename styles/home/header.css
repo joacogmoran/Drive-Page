@@ -19,6 +19,8 @@
     #header__container__menu__input:checked ~ #header__container__list > li > a { font-weight: bold; color: black; }
     #header__container > a { font-size: 20px; }
     #header__container__list > li > a { font-size: 17px; }
+    #header__container__list > li:nth-child(5) > a { padding: 15px }
+    #header__container__list > li:nth-child(6) > a { padding: 15px }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -30,6 +32,8 @@
 
     #header__container > a { font-size: 20px; }
     #header__container__list > li > a { font-size: 17px; }
+    #header__container__list > li:nth-child(5) > a { padding: 15px }
+    #header__container__list > li:nth-child(6) > a { padding: 15px }
 }
 
 @media (min-width: 992px) and (max-width: 1999px) {
@@ -41,6 +45,8 @@
 
     #header__container > a { font-size: 20px; }
     #header__container__list > li > a { font-size: 17px; }
+    #header__container__list > li:nth-child(5) > a { padding: 15px }
+    #header__container__list > li:nth-child(6) > a { padding: 15px }
 }
 
 @media (min-width: 1200px) and (max-width: 1399) {
@@ -52,6 +58,8 @@
 
     #header__container > a { font-size: 20px; }
     #header__container__list > li > a { font-size: 17px; }
+    #header__container__list > li:nth-child(5) > a { padding: 15px }
+    #header__container__list > li:nth-child(6) > a { padding: 15px }
 }
 
 @media (min-width: 1400px) {
@@ -63,6 +71,8 @@
 
     #header__container > a { font-size: 20px; }
     #header__container__list > li > a { font-size: 17px; }
+    #header__container__list > li:nth-child(5) > a { padding: 15px }
+    #header__container__list > li:nth-child(6) > a { padding: 15px }
 }
 
 header {
@@ -91,4 +101,15 @@ header {
 
 #header__container__list > li > a {
     color: white;
+}
+
+#header__container__list > li:nth-child(5) > a {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+#header__container__list > li:nth-child(6) > a {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: black;
 }
